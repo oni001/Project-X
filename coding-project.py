@@ -53,9 +53,6 @@ for i in range(len(pairs)):
         words.append(word)
         frequencies.append(freq)
 
-print (words)
-print (frequencies)
-
 # label the histogram
 plt.xlabel('Word Count')
 plt.ylabel('Frequency')
